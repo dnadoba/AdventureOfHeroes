@@ -1,0 +1,102 @@
+{
+    "max-worker" : 1,
+    "http-port" : 8080,
+    "staticDirectory" : "public",
+    "assetPath" : "/assets",
+    "gameObjectsPath" : "/gameObjects",
+    "modelsPath" : "/models",
+    "defaultVillageLoadingImage" : "/images/villageLoading/default.jpg",
+    "defaulTheme" : "light",
+    "redis" : {
+        "pub" : {
+            "host" : "localhost",
+            "port" : 6379,
+            "auth" : ""
+        },
+        "sub" : {
+            "host" : "localhost",
+            "port" : 6379,
+            "auth" : ""
+        },
+        "client" : {
+            "host" : "localhost",
+            "port" : 6379,
+            "auth" : ""
+        }
+    },
+    "requireJsPath" : "vendors/scripts/requirejs.min.js",
+    "requireJsBuilds" : [{
+            "worker" : true,
+            "baseUrl" : "/",
+            "name" : "desktop/worker/msgpack.js",
+            "out" : "desktop/scripts/worker/msgpack.js"
+        },{
+            "worker" : true,
+            "baseUrl" : "/",
+            "name" : "desktop/worker/downloader.js",
+            "out" : "desktop/scripts/worker/downloader.js"
+        },{
+            "baseUrl" : "/",
+            "name" : "desktop/main.js",
+            "out" : "desktop/scripts/build.js",
+            "paths" : {
+                "text" : "vendors/utili/text",
+                "aoh" : "desktop/aoh",
+                "angular" : "vendors/angular",
+                "angular.animate" : "vendors/angular/angular-animate",
+                "angular.route" : "vendors/angular/angular-route",
+                "angular.ui.bootstrap" : "vendors/angular/bootstrap",
+                "angular.translate" : "vendors/angular/translate",
+                "angular.translate.loader" : "vendors/angular/translate-loader",
+                "socket.io" : "node_modules/socket.io/node_modules/socket.io-client/dist/socket.io",
+                "three" : "vendors/three.js-66/build/three",
+                "box2d" : "vendors/box2d-2.3.1",
+                "stats" : "vendors/utili/stats"
+            },
+            "shim" : {
+                "angular" : {
+                    "exports" : "angular"
+                },
+                "angular.animate" : ["angular"],
+                "angular.route" : ["angular"],
+                "angular.ui.bootstrap" : ["angular"],
+                "angular.translate" : ["angular"],
+                "angular.translate.loader" : ["angular.translate"],
+                "socket.io" : {
+                    "exports" : "io"
+                },
+                "three" : {
+                    "exports" : "THREE"
+                },
+                "box2d" : {
+                    "exports" : "b2"
+                },
+                "stats" : {
+                    "exports" : "Stats"
+                }
+            }
+        },{
+            "baseUrl" : "/",
+            "name" : "mobile/main.js",
+            "out" : "mobile/scripts/build.js",
+            "paths" : {
+                "text" : "vendors/utili/text",
+                "aoh" : "mobile/aoh",
+                "ionic" : "vendors/ionic.bundle",
+                "socket.io" : "node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.min.js"
+            },
+            "shim" : {
+                "ionic" : {
+                    "exports" : "angular"
+                },
+                "socket.io" : {
+                    "exports" : "io"
+                }
+            }
+        }
+    ],
+    "stylus" :{
+        "src" : "assets",
+        "dest" : "public"
+    }
+}

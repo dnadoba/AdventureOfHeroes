@@ -1,0 +1,136 @@
+//game container
+.game
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+.game.light-theme
+    background-color: #FFF;
+    
+
+.game.dark-theme
+    background-color: gray-light
+    .dropdown-menu
+        background-color gray-darker
+        border-color gray-dark
+        li>a
+            color gray-light
+            &:hover
+                background-color gray-dark
+
+.game .navbar-container
+    transition: all 400ms
+    user-select none
+    top: -52px
+    transition-delay: 0s;
+    .placeholder
+        width 100%
+        height 40px
+    .navbar
+        transition: all 400ms
+        border none
+        position relative
+        border-radius 0
+        margin 0
+        .navbar-header
+            position relative
+            .dropdown-menu
+                border-radius 0
+                position absolute
+                left auto
+                right 1px
+                top: 50px
+            button
+                transition: all 400ms
+
+    &.show,
+    &:hover
+        top: 0;
+        transition-delay: 0s;
+    &.hide
+        top: -52px
+        transition-delay: 0s;
+        
+        
+        
+        
+    
+
+.game.light-theme .navbar
+    background-color #FFF
+    border-bottom 1px solid gray-lighter
+    .navbar-header
+        button
+            border-color: brand-primary;
+            &:hover
+                background-color: gray-lighter
+            &:active
+                background-color: lighten(brand-primary, 50%)
+            .icon-bar
+                background-color: brand-primary
+    
+.game.dark-theme .navbar
+    border-bottom 1px solid gray-dark
+    
+.loadingImage
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background-size cover
+    background-position center center
+    user-select none
+    cursor default
+    
+.villageName
+    position absolute
+    user-select none
+    cursor default
+    font-size 45pt
+    animation villageName 35s ease-in-out
+    left 5%
+    top 100px
+    transition all 400ms
+
+.game.light-theme .villageName
+    color brand-primary
+    text-shadow -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+
+.game.dark-theme .villageName
+    color brand-danger
+    text-shadow -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+@keyframes villageName
+    0%
+        left -50%
+    6%
+        left 5%
+    20%
+        left 11%
+    35%
+        left 5%
+    50%
+        left 11%;
+    65%
+        left 6%
+    80%
+        left 12%
+    100%
+        left 5%
+        
+#gameCanvas
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+        

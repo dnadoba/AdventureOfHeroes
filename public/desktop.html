@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adventures of Heroes</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+        .windows8 {
+            position: relative;
+            width: 90px;
+            height:90px;
+        }
+
+        .windows8 .wBall {
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            opacity: 0;
+            -moz-transform: rotate(225deg);
+            -moz-animation: orbit 6.050000000000001s infinite;
+            -webkit-transform: rotate(225deg);
+            -webkit-animation: orbit 6.050000000000001s infinite;
+            -o-transform: rotate(225deg);
+            -o-animation: orbit 6.050000000000001s infinite;
+            -ms-transform: rotate(225deg);
+            -ms-animation: orbit 6.050000000000001s infinite;
+            transform: rotate(225deg);
+            animation: orbit 6.050000000000001s infinite;
+        }
+
+        .windows8 .wBall .wInnerBall{
+            position: absolute;
+            width: 11px;
+            height: 11px;
+            background: #4287F5;
+            left:0px;
+            top:0px;
+            -moz-border-radius: 11px;
+            -webkit-border-radius: 11px;
+            -o-border-radius: 11px;
+            -ms-border-radius: 11px;
+            border-radius: 11px;
+        }
+
+        .windows8 #wBall_1 {
+            -moz-animation-delay: 1.32s;
+            -webkit-animation-delay: 1.32s;
+            -o-animation-delay: 1.32s;
+            -ms-animation-delay: 1.32s;
+            animation-delay: 1.32s;
+        }
+
+        .windows8 #wBall_2 {
+            -moz-animation-delay: 0.26s;
+            -webkit-animation-delay: 0.26s;
+            -o-animation-delay: 0.26s;
+            -ms-animation-delay: 0.26s;
+            animation-delay: 0.26s;
+        }
+
+        .windows8 #wBall_3 {
+            -moz-animation-delay: 0.53s;
+            -webkit-animation-delay: 0.53s;
+            -o-animation-delay: 0.53s;
+            -ms-animation-delay: 0.53s;
+            animation-delay: 0.53s;
+        }
+
+        .windows8 #wBall_4 {
+            -moz-animation-delay: 0.79s;
+            -webkit-animation-delay: 0.79s;
+            -o-animation-delay: 0.79s;
+            -ms-animation-delay: 0.79s;
+            animation-delay: 0.79s;
+        }
+
+        .windows8 #wBall_5 {
+            -moz-animation-delay: 1.06s;
+            -webkit-animation-delay: 1.06s;
+            -o-animation-delay: 1.06s;
+            -ms-animation-delay: 1.06s;
+            animation-delay: 1.06s;
+        }
+
+        @-moz-keyframes orbit {
+            0% {
+                opacity: 1;
+                z-index:99;
+                -moz-transform: rotate(180deg);
+                -moz-animation-timing-function: ease-out;
+            }
+
+            7% {
+                opacity: 1;
+                -moz-transform: rotate(300deg);
+                -moz-animation-timing-function: linear;
+                -moz-origin:0%;
+            }
+
+            30% {
+                opacity: 1;
+                -moz-transform:rotate(410deg);
+                -moz-animation-timing-function: ease-in-out;
+                -moz-origin:7%;
+            }
+
+            39% {
+                opacity: 1;
+                -moz-transform: rotate(645deg);
+                -moz-animation-timing-function: linear;
+                -moz-origin:30%;
+            }
+
+            70% {
+                opacity: 1;
+                -moz-transform: rotate(770deg);
+                -moz-animation-timing-function: ease-out;
+                -moz-origin:39%;
+            }
+
+            75% {
+                opacity: 1;
+                -moz-transform: rotate(900deg);
+                -moz-animation-timing-function: ease-out;
+                -moz-origin:70%;
+            }
+
+            76% {
+                opacity: 0;
+                -moz-transform:rotate(900deg);
+            }
+
+            100% {
+                opacity: 0;
+                -moz-transform: rotate(900deg);
+            }
+
+        }
+
+        @-webkit-keyframes orbit {
+            0% {
+                opacity: 1;
+                z-index:99;
+                -webkit-transform: rotate(180deg);
+                -webkit-animation-timing-function: ease-out;
+            }
+
+            7% {
+                opacity: 1;
+                -webkit-transform: rotate(300deg);
+                -webkit-animation-timing-function: linear;
+                -webkit-origin:0%;
+            }
+
+            30% {
+                opacity: 1;
+                -webkit-transform:rotate(410deg);
+                -webkit-animation-timing-function: ease-in-out;
+                -webkit-origin:7%;
+            }
+
+            39% {
+                opacity: 1;
+                -webkit-transform: rotate(645deg);
+                -webkit-animation-timing-function: linear;
+                -webkit-origin:30%;
+            }
+
+            70% {
+                opacity: 1;
+                -webkit-transform: rotate(770deg);
+                -webkit-animation-timing-function: ease-out;
+                -webkit-origin:39%;
+            }
+
+            75% {
+                opacity: 1;
+                -webkit-transform: rotate(900deg);
+                -webkit-animation-timing-function: ease-out;
+                -webkit-origin:70%;
+            }
+
+            76% {
+                opacity: 0;
+                -webkit-transform:rotate(900deg);
+            }
+
+            100% {
+                opacity: 0;
+                -webkit-transform: rotate(900deg);
+            }
+
+        }
+
+        @-o-keyframes orbit {
+            0% {
+                opacity: 1;
+                z-index:99;
+                -o-transform: rotate(180deg);
+                -o-animation-timing-function: ease-out;
+            }
+
+            7% {
+                opacity: 1;
+                -o-transform: rotate(300deg);
+                -o-animation-timing-function: linear;
+                -o-origin:0%;
+            }
+
+            30% {
+                opacity: 1;
+                -o-transform:rotate(410deg);
+                -o-animation-timing-function: ease-in-out;
+                -o-origin:7%;
+            }
+
+            39% {
+                opacity: 1;
+                -o-transform: rotate(645deg);
+                -o-animation-timing-function: linear;
+                -o-origin:30%;
+            }
+
+            70% {
+                opacity: 1;
+                -o-transform: rotate(770deg);
+                -o-animation-timing-function: ease-out;
+                -o-origin:39%;
+            }
+
+            75% {
+                opacity: 1;
+                -o-transform: rotate(900deg);
+                -o-animation-timing-function: ease-out;
+                -o-origin:70%;
+            }
+
+            76% {
+                opacity: 0;
+                -o-transform:rotate(900deg);
+            }
+
+            100% {
+                opacity: 0;
+                -o-transform: rotate(900deg);
+            }
+
+        }
+
+        @-ms-keyframes orbit {
+            0% {
+                opacity: 1;
+                z-index:99;
+                -ms-transform: rotate(180deg);
+                -ms-animation-timing-function: ease-out;
+            }
+
+            7% {
+                opacity: 1;
+                -ms-transform: rotate(300deg);
+                -ms-animation-timing-function: linear;
+                -ms-origin:0%;
+            }
+
+            30% {
+                opacity: 1;
+                -ms-transform:rotate(410deg);
+                -ms-animation-timing-function: ease-in-out;
+                -ms-origin:7%;
+            }
+
+            39% {
+                opacity: 1;
+                -ms-transform: rotate(645deg);
+                -ms-animation-timing-function: linear;
+                -ms-origin:30%;
+            }
+
+            70% {
+                opacity: 1;
+                -ms-transform: rotate(770deg);
+                -ms-animation-timing-function: ease-out;
+                -ms-origin:39%;
+            }
+
+            75% {
+                opacity: 1;
+                -ms-transform: rotate(900deg);
+                -ms-animation-timing-function: ease-out;
+                -ms-origin:70%;
+            }
+
+            76% {
+                opacity: 0;
+                -ms-transform:rotate(900deg);
+            }
+
+            100% {
+                opacity: 0;
+                -ms-transform: rotate(900deg);
+            }
+
+        }
+
+        @keyframes orbit {
+            0% {
+                opacity: 1;
+                z-index:99;
+                transform: rotate(180deg);
+                animation-timing-function: ease-out;
+            }
+
+            7% {
+                opacity: 1;
+                transform: rotate(300deg);
+                animation-timing-function: linear;
+                origin:0%;
+            }
+
+            30% {
+                opacity: 1;
+                transform:rotate(410deg);
+                animation-timing-function: ease-in-out;
+                origin:7%;
+            }
+
+            39% {
+                opacity: 1;
+                transform: rotate(645deg);
+                animation-timing-function: linear;
+                origin:30%;
+            }
+
+            70% {
+                opacity: 1;
+                transform: rotate(770deg);
+                animation-timing-function: ease-out;
+                origin:39%;
+            }
+
+            75% {
+                opacity: 1;
+                transform: rotate(900deg);
+                animation-timing-function: ease-out;
+                origin:70%;
+            }
+
+            76% {
+                opacity: 0;
+                transform:rotate(900deg);
+            }
+
+            100% {
+                opacity: 0;
+                transform: rotate(900deg);
+            }
+
+        }
+
+        /* HTML
+
+        <div class="windows8">
+            <div class="wBall" id="wBall_1">
+                <div class="wInnerBall">
+                </div>
+            </div>
+            <div class="wBall" id="wBall_2">
+                <div class="wInnerBall">
+                </div>
+            </div>
+            <div class="wBall" id="wBall_3">
+                <div class="wInnerBall">
+                </div>
+            </div>
+            <div class="wBall" id="wBall_4">
+                <div class="wInnerBall">
+                </div>
+            </div>
+            <div class="wBall" id="wBall_5">
+                <div class="wInnerBall">
+                </div>
+            </div>
+        </div><!-- - See more at: http://cssload.net/en/#sthash.6I1rsu9A.dpuf-->
+
+        */
+        </style>
+        <!--Loading style-->
+        <style type="text/css">
+            html{
+                opacity: 0;
+            }
+            html, body{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .centerWraper{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 90px;
+                width: 90px;
+                margin-left: -45px;
+                margin-right: -45px;
+            }
+            #loadingInfo{
+                margin-top: -55px;
+                width: 90px;
+                text-align: center;
+
+            }
+            .hideBeforBootstrap{
+                display: none !important;
+            }
+        </style>
+        <!--include stylesheets-->
+        <link rel="stylesheet" href="vendors/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="desktop/stylesheets/build.css">
+    </head>
+    <body>
+        <!-- Intro with login and registration-->
+        <div class="intro" ng-controller="introCtrl">
+            <!--Loading-->
+            <div id="sessionLoading" class="animate-show" ng-show="session.checking || loading">
+                <div class="centerWraper">
+                    <div class="windows8">
+                        <div class="wBall" id="wBall_1">
+                            <div class="wInnerBall">
+                            </div>
+                        </div>
+                        <div class="wBall" id="wBall_2">
+                            <div class="wInnerBall">
+                            </div>
+                        </div>
+                        <div class="wBall" id="wBall_3">
+                            <div class="wInnerBall">
+                            </div>
+                        </div>
+                        <div class="wBall" id="wBall_4">
+                            <div class="wInnerBall">
+                            </div>
+                        </div>
+                        <div class="wBall" id="wBall_5">
+                            <div class="wInnerBall">
+                            </div>
+                        </div>
+                    </div><!-- - See more at: http://cssload.net/en/#sthash.6I1rsu9A.dpuf-->
+                    <div id="loadingInfo">
+                        loading
+                    </div>
+                </div>
+    
+            </div>
+            
+            <div class="vertical-center-helper">
+                <div class="vertical-center">
+                    <div class="container row hideBeforBootstrap animate-if" ng-if="!session.established && !session.checking && !loading">
+                        <div col-md-6 col-md-offset-3>
+                            <h1>Adventure of Heros</h1>
+                        </div>
+                        <form class="login col-md-4 col-md-offset-1" type="'danger'" ng-controller="loginCtrl" ng-submit="login()">
+                            <h2 translate="LOGIN_HEAD"></h2>
+                            <alert ng-show="error">
+                                <span>{{error | translate}}</span>
+                            </alert>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </span>
+                                    <input type="email" class="form-control" placeholder="{{ 'EMAIL' | translate }}" ng-model="email" required autofocus>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-lock"></span>
+                                    </span>
+                                    <input id="userPassword" type="password" class="form-control" placeholder="{{ 'PASSWORD' | translate}}" ng-model="password" required>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="rememberEmail" checked ng-change="rememberEmailChange()">
+                                    {{'EMAIL_REMEMBER' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-lg btn-primary btn-block" type="submit" translate="LOGIN_ACTION"></button>
+                            </div>
+                        </form>
+                        <div class="col-md-2">
+                            
+                        </div>
+                        <form class="col-md-4" ng-submit="register()" ng-controller="registerCtrl">
+                            <h2 translate="REGISTRATION_HEAD"></h2>
+                            <alert ng-show="error">
+                                <span>{{error | translate}}</span>
+                            </alert>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-tower"></span>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="{{ 'NAME' | translate }}" ng-model="name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </span>
+                                    <input type="email" class="form-control" placeholder="{{ 'EMAIL' | translate }}" ng-model="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-lock"></span>
+                                    </span>
+                                    <input type="password" class="form-control" placeholder="{{ 'PASSWORD' | translate}}" ng-model="password" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-lg btn-primary btn-block" type="submit" translate="REGISTRATION_ACTION"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-controller="game" class="hideBeforBootstrap game animate-show" ng-class="village.themeClass" ng-show="session.established">
+            <div class="navbar-container navbar-fixed-top" ng-class="{show : village.loading, hide : village.creating}">
+                <div class="navbar" ng-class="{'navbar-inverse' : village.theme == 'dark'}">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <div class="dropdown collapsed">
+                                <button type="button" class="dropdown-toggle navbar-toggle">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a ng-click="session.logout()">Logout</a>
+                                    </li>
+                                    <li>
+                                        <a ng-click="changeTheme(village.theme == 'light' ? 'dark' : 'light')">Change Theme</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="navbar-brand">{{user.name}}</a>
+                        </div>
+                        
+                        <ul class="nav navbar-nav navbar-right navbar-collapse collapse">
+                            <li>
+                                <a ng-click="session.logout()">Logout</a>
+                            </li>
+                            <li>
+                                <a ng-click="changeTheme(village.theme == 'light' ? 'dark' : 'light')">Change Theme</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="placeholder"></div>
+            </div>
+            <div class="loadingImage animate-if" style="background-image: url({{village.loadingImage}});" ng-if="village.loading && village.loadingImage"></div>
+            <div class="villageName animate-if" ng-if="village.loading && village.name">{{village.name}}</div>
+            <div class="patcher" ng-if="patcher.assetDlCtrl">
+                <div class="bar">
+                    <div class="progress" style="width: {{patcher.assetDlCtrl.progress * 100}}%;">
+                        
+                    </div>
+                </div>
+                <div class="text-left" ng-if="patcher.assetDlCtrl.leftTime > 0 && patcher.assetDlCtrl.leftTime < 3600000">
+                    {{patcher.assetDlCtrl.leftTime | date:'mm:ss'}}
+                </div>
+                <div class="text-left" ng-if="patcher.assetDlCtrl.leftTime < 0 || patcher.assetDlCtrl.leftTime > 3600000">
+                    --:--
+                </div>
+                <div class="text-center">
+                    {{patcher.assetDlCtrl.getBytesLoaded() | bytesToSize}} / {{patcher.assetDlCtrl.totalBytes | bytesToSize}}
+                </div>
+                <div class="text-right">
+                    {{patcher.assetDlCtrl.speed | bytesToSize}}/s
+                </div>
+            </div>
+            <div class="creating animate-if" ng-if="village.creating">
+                <div class="bar">
+                    <div class="progress" style="width: {{village.creating * 100}}%;">
+                        
+                    </div>
+                </div>
+            </div>
+            <canvas id="gameCanvas" class="animate-show" ng-show="ingame"></canvas>
+        </div>
+        
+        
+        
+        <!--include main script with requirejs async-->
+        <script type="text/javascript" data-main="desktop/scripts/build" src="vendors/scripts/requirejs.min.js" async></script>
+        <!--simple progress text that adds some dots after the loading message-->
+        <script type="text/javascript">
+            (function() {
+                function LoadingText(domElement){
+                    this.text = "";
+                    this.dots = 3;
+                    this.dotsCrt = 0;
+                    this.setDomElement = function(domElement){
+                        this.elm = domElement;
+                        this.update();
+                    }
+                    this.setText = function(text){
+                        this.text = text.trim();
+                        this.update();
+                    }
+                    this.update = function(){
+                        var text = this.text;
+                        for(var i = 0; i < this.dotsCrt; i++){
+                            text += '.';
+                        }
+                        this.elm.textContent = text;
+                    }
+                    this.interval = function(){
+                        this.update();
+                        this.dotsCrt++;
+                        if(this.dotsCrt > this.dots){
+                            this.dotsCrt = 0;
+                        }
+                    }
+                    // private var
+                    var intervalRef;
+                    this.setInterval = function(ms){
+                        this.clearInterval();
+                        intervalRef = setInterval(this.interval.bind(this), ms);
+                    }
+                    this.clearInterval = function(){
+                        if(intervalRef){
+                            window.clearInterval(intervalRef);
+                        }
+                    }
+                    this.clearDots = function(){
+                        this.elm.textContent = this.text;
+                        this.dotsCrt = 0;
+                    }
+                    // init
+                    this.setDomElement(domElement);
+                }
+                
+                // Interval shoud be cleared from the intro Controller
+                var textElm = document.getElementById('loadingInfo');
+                var text = textElm.textContent;
+                
+                window.loadingText = new LoadingText(textElm);
+                window.loadingText.setText(text);
+                window.loadingText.setInterval(300)
+            })();
+        </script>
+    </body>
+</html>

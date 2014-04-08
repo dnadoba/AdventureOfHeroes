@@ -1,0 +1,17 @@
+{
+    "version" : 1,
+    "name" : "Adventure of Heros",
+    "debug" : true,
+    "mysql" : {
+        "host" : "localhost",
+        "user" : "root",
+        "password" : "",
+        "database" : "aoh"
+    },
+    "masterServer" : {
+        "address" : "127.0.0.1",
+        "portForSlaves" : 8100,
+        "portForCluster" : 8101,
+        "authKey" : "RDTFGHIUJOIPKLHKJGHFDJZGK"    
+    }
+}

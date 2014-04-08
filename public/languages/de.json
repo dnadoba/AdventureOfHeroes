@@ -1,0 +1,18 @@
+{
+    "LOGIN_HEAD" : "Login",
+    "NAME" : "Heldenname",
+    "EMAIL" : "Email Adresse",
+    "EMAIL_REMEMBER" : "Email Adresse merken",
+    "PASSWORD" : "Passwort",
+    "LOGIN_ACTION" : "Anmelden",
+    "LOGIN_WRONG" : "Email Adresse oder Passwort ist nicht korrekt",
+    "REGISTRATION_HEAD" : "Registrieren",
+    "REGISTRATION_ACTION" : "Registreren",
+    "REGISTRATION_ERROR" : "Registrierung fehlgeschlagen",
+    "VERSION_ERROR_HEADER" : "Neue Version verfügbar",
+    "VERSION_ERROR_BODY" : "Eine neue Version von Adventure of Heros ist verfügbar. Die Seite wird jetzt neu geladen.",
+    "REFRESH_PAGE" : "Seite neuladen",
+    "REQUEST_QUOTA_HEADER" : "Daten Dauerhaft Speichern",
+    "REQUEST_QUOTA_BODY" : "Damit die Ladezeiten von Adventure of Heros auf wenige Sekunden fallen, speichern wir sehr oft benutzte Dateien auf deinem Computer. Klicke einfach oben bei deinem Browser auf OK und es geht weiter"
+    
+}

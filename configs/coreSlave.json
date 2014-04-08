@@ -1,0 +1,5 @@
+{
+    "slave" : {
+        "startPort" : 9000
+    }
+}

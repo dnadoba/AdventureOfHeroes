@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'three-math' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'three-math', null ]
+5 verbose cache add name=undefined spec="three-math" args=["three-math",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'three-math',
+6 verbose parsed url   path: 'three-math',
+6 verbose parsed url   href: 'three-math' }
+7 silly lockFile 288a8602-three-math three-math
+8 verbose lock three-math /Users/Jango/.npm/288a8602-three-math.lock
+9 silly lockFile 288a8602-three-math three-math
+10 silly lockFile 288a8602-three-math three-math
+11 verbose addNamed [ 'three-math', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c6c5114e-three-math three-math@
+14 verbose lock three-math@ /Users/Jango/.npm/c6c5114e-three-math.lock
+15 silly addNameRange { name: 'three-math', range: '*', hasData: false }
+16 verbose url raw three-math
+17 verbose url resolving [ 'https://registry.npmjs.org/', './three-math' ]
+18 verbose url resolved https://registry.npmjs.org/three-math
+19 info trying registry request attempt 1 at 03:26:55
+20 http GET https://registry.npmjs.org/three-math
+21 http 404 https://registry.npmjs.org/three-math
+22 silly registry.get cb [ 404,
+22 silly registry.get   { date: 'Tue, 08 Apr 2014 01:26:56 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '52',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-fra1221-FRA',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1396920416.490561724,VS0,VS49,VE58,VE109',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly lockFile c6c5114e-three-math three-math@
+24 silly lockFile c6c5114e-three-math three-math@
+25 error 404 'three-math' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 13.1.0
+27 error command "node" "/usr/local/bin/npm" "install" "three-math"
+28 error cwd /Users/Jango/WebstormProjects/Adventure_of_Heroes
+29 error node -v v0.10.26
+30 error npm -v 1.4.3
+31 error code E404
+32 verbose exit [ 1, true ]

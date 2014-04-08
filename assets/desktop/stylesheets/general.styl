@@ -1,0 +1,80 @@
+//from bootstrap
+gray-darker =   lighten(#000, 13.5%); // #222
+gray-dark =     lighten(#000, 20%);   // #333
+gray =          lighten(#000, 33.5%); // #555
+gray-light =    lighten(#000, 60%);   // #999
+gray-lighter =  lighten(#000, 93.5%); // #eee
+
+brand-primary = #428bca;
+brand-success = #5cb85c;
+brand-info =    #5bc0de;
+brand-warning = #f0ad4e;
+brand-danger =  #d9534f;
+
+html, body
+    overflow: hidden;
+    
+    
+body
+    background-color #FFF
+
+html
+    animation fadeIn 1000ms
+    opacity 1
+    
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+        
+.animate-if
+    display: block;
+    &.ng-enter, 
+    &.ng-leave
+        transition: all 200ms;
+    
+    &.ng-enter,
+    &.ng-leave.ng-leave-active 
+        opacity:0;
+  
+ 
+    &.ng-leave,
+    &.ng-enter.ng-enter-active
+        opacity:1;
+
+.animate-show
+    transition all 200ms
+    opacity 1
+    &.ng-hide-add,
+    &.ng-hide-remove
+        display block !important
+    &.ng-hide
+        opacity 0
+a:hover
+    cursor: pointer;
+
+.btn
+    outline: none !important;
+    
+.debugWindow
+    position fixed
+    top 0
+    left 0
+    z-index 10
+    border 1px solid rgba(#F00, 0.6)
+    background-color rgba(#F00, 0.1)
+    padding 1px
+    div
+        padding 5px
+
+#box2dDebugDraw
+    position fixed
+    border 1px solid rgba(#F00, 0.6)
+    background-color rgba(#F00, 0.1)
+    right 0
+    bottom 0
+    z-index 10
+    user-select none
+    cursor pointer
+    

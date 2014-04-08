@@ -1,0 +1,774 @@
+html,
+body {
+  overflow: hidden;
+}
+body {
+  background-color: #fff;
+}
+html {
+  -webkit-animation: fadeIn 1000ms;
+  -moz-animation: fadeIn 1000ms;
+  -o-animation: fadeIn 1000ms;
+  -ms-animation: fadeIn 1000ms;
+  animation: fadeIn 1000ms;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.animate-if {
+  display: block;
+}
+.animate-if.ng-enter,
+.animate-if.ng-leave {
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  -ms-transition: all 200ms;
+  transition: all 200ms;
+}
+.animate-if.ng-enter,
+.animate-if.ng-leave.ng-leave-active {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.animate-if.ng-leave,
+.animate-if.ng-enter.ng-enter-active {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.animate-show {
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  -ms-transition: all 200ms;
+  transition: all 200ms;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+  display: block !important;
+}
+.animate-show.ng-hide {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+a:hover {
+  cursor: pointer;
+}
+.btn {
+  outline: none !important;
+}
+.debugWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border: 1px solid rgba(255,0,0,0.6);
+  background-color: rgba(255,0,0,0.1);
+  padding: 1px;
+}
+.debugWindow div {
+  padding: 5px;
+}
+#box2dDebugDraw {
+  position: fixed;
+  border: 1px solid rgba(255,0,0,0.6);
+  background-color: rgba(255,0,0,0.1);
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+.intro {
+  height: 100%;
+  width: 100%;
+}
+.vertical-center-helper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.container {
+  margin: 0 auto;
+}
+.game {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.game.light-theme {
+  background-color: #fff;
+}
+.game.dark-theme {
+  background-color: #999;
+}
+.game.dark-theme .dropdown-menu {
+  background-color: #222;
+  border-color: #333;
+}
+.game.dark-theme .dropdown-menu li>a {
+  color: #999;
+}
+.game.dark-theme .dropdown-menu li>a:hover {
+  background-color: #333;
+}
+.game .navbar-container {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: -52px;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.game .navbar-container .placeholder {
+  width: 100%;
+  height: 40px;
+}
+.game .navbar-container .navbar {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+  border: none;
+  position: relative;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
+}
+.game .navbar-container .navbar .navbar-header {
+  position: relative;
+}
+.game .navbar-container .navbar .navbar-header .dropdown-menu {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  position: absolute;
+  left: auto;
+  right: 1px;
+  top: 50px;
+}
+.game .navbar-container .navbar .navbar-header button {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+}
+.game .navbar-container.show,
+.game .navbar-container:hover {
+  top: 0;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.game .navbar-container.hide {
+  top: -52px;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.game.light-theme .navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.game.light-theme .navbar .navbar-header button {
+  border-color: #428bca;
+}
+.game.light-theme .navbar .navbar-header button:hover {
+  background-color: #eee;
+}
+.game.light-theme .navbar .navbar-header button:active {
+  background-color: #a1c5e4;
+}
+.game.light-theme .navbar .navbar-header button .icon-bar {
+  background-color: #428bca;
+}
+.game.dark-theme .navbar {
+  border-bottom: 1px solid #333;
+}
+.loadingImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.villageName {
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  font-size: 45pt;
+  -webkit-animation: villageName 35s ease-in-out;
+  -moz-animation: villageName 35s ease-in-out;
+  -o-animation: villageName 35s ease-in-out;
+  -ms-animation: villageName 35s ease-in-out;
+  animation: villageName 35s ease-in-out;
+  left: 5%;
+  top: 100px;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+}
+.game.light-theme .villageName {
+  color: #428bca;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.game.dark-theme .villageName {
+  color: #d9534f;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#gameCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+@-moz-keyframes villageName {
+  0% {
+    left: -50%;
+  }
+
+  6% {
+    left: 5%;
+  }
+
+  20% {
+    left: 11%;
+  }
+
+  35% {
+    left: 5%;
+  }
+
+  50% {
+    left: 11%;
+  }
+
+  65% {
+    left: 6%;
+  }
+
+  80% {
+    left: 12%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+@-webkit-keyframes villageName {
+  0% {
+    left: -50%;
+  }
+
+  6% {
+    left: 5%;
+  }
+
+  20% {
+    left: 11%;
+  }
+
+  35% {
+    left: 5%;
+  }
+
+  50% {
+    left: 11%;
+  }
+
+  65% {
+    left: 6%;
+  }
+
+  80% {
+    left: 12%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+@-o-keyframes villageName {
+  0% {
+    left: -50%;
+  }
+
+  6% {
+    left: 5%;
+  }
+
+  20% {
+    left: 11%;
+  }
+
+  35% {
+    left: 5%;
+  }
+
+  50% {
+    left: 11%;
+  }
+
+  65% {
+    left: 6%;
+  }
+
+  80% {
+    left: 12%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+@-ms-keyframes villageName {
+  0% {
+    left: -50%;
+  }
+
+  6% {
+    left: 5%;
+  }
+
+  20% {
+    left: 11%;
+  }
+
+  35% {
+    left: 5%;
+  }
+
+  50% {
+    left: 11%;
+  }
+
+  65% {
+    left: 6%;
+  }
+
+  80% {
+    left: 12%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+@keyframes villageName {
+  0% {
+    left: -50%;
+  }
+
+  6% {
+    left: 5%;
+  }
+
+  20% {
+    left: 11%;
+  }
+
+  35% {
+    left: 5%;
+  }
+
+  50% {
+    left: 11%;
+  }
+
+  65% {
+    left: 6%;
+  }
+
+  80% {
+    left: 12%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+.bar {
+  height: 5px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  right: 0;
+}
+.bar .progress {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  position: absolute;
+  height: 100%;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+}
+.game.light-theme .bar .progress {
+  background-color: #5bc0de;
+  -webkit-animation: progressLight 2000ms infinite;
+  -moz-animation: progressLight 2000ms infinite;
+  -o-animation: progressLight 2000ms infinite;
+  -ms-animation: progressLight 2000ms infinite;
+  animation: progressLight 2000ms infinite;
+}
+.game.dark-theme .bar .progress {
+  background-color: #d9534f;
+  -webkit-animation: progressDark 2000ms infinite;
+  -moz-animation: progressDark 2000ms infinite;
+  -o-animation: progressDark 2000ms infinite;
+  -ms-animation: progressDark 2000ms infinite;
+  animation: progressDark 2000ms infinite;
+}
+.patcher,
+.creating {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 400ms all;
+  -moz-transition: 400ms all;
+  -o-transition: 400ms all;
+  -ms-transition: 400ms all;
+  transition: 400ms all;
+  font-size: 1.3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.patcher {
+  height: 60px;
+  display: block;
+}
+.patcher .text-left,
+.patcher .text-center,
+.patcher .text-right {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 20px;
+  position: absolute;
+}
+.patcher.ng-enter,
+.patcher.ng-leave {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+}
+.patcher.ng-enter,
+.patcher.ng-leave.ng-leave-active {
+  bottom: -70px;
+}
+.patcher.ng-leave,
+.patcher.ng-enter.ng-enter-active {
+  bottom: 0;
+}
+.game.light-theme .patcher {
+  background-color: rgba(238,238,238,0.7);
+  border-top: 1px solid rgba(153,153,153,0.7);
+  color: #428bca;
+}
+.game.dark-theme .patcher {
+  background-color: rgba(34,34,34,0.7);
+  border-top: 1px solid rgba(51,51,51,0.7);
+  color: rgba(255,255,255,0.5);
+}
+.creating {
+  display: block;
+}
+.creating .bar {
+  height: 6px;
+  top: -6px;
+}
+.creating.ng-enter,
+.creating.ng-leave {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  -ms-transition: all 400ms;
+  transition: all 400ms;
+}
+.creating.ng-enter,
+.creating.ng-leave.ng-leave-active {
+  bottom: -10px;
+}
+.creating.ng-leave,
+.creating.ng-enter.ng-enter-active {
+  bottom: 0px;
+}
+@-moz-keyframes progressLight {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #5bc0de;
+    box-shadow: 0px 0px 5px #5bc0de;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+}
+@-webkit-keyframes progressLight {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #5bc0de;
+    box-shadow: 0px 0px 5px #5bc0de;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+}
+@-o-keyframes progressLight {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #5bc0de;
+    box-shadow: 0px 0px 5px #5bc0de;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+}
+@-ms-keyframes progressLight {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #5bc0de;
+    box-shadow: 0px 0px 5px #5bc0de;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+}
+@keyframes progressLight {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #5bc0de;
+    box-shadow: 0px 0px 5px #5bc0de;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #5bc0de;
+    box-shadow: 0px 0px 0px #5bc0de;
+  }
+}
+@-moz-keyframes progressDark {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #d9534f;
+    box-shadow: 0px 0px 5px #d9534f;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+}
+@-webkit-keyframes progressDark {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #d9534f;
+    box-shadow: 0px 0px 5px #d9534f;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+}
+@-o-keyframes progressDark {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #d9534f;
+    box-shadow: 0px 0px 5px #d9534f;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+}
+@-ms-keyframes progressDark {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #d9534f;
+    box-shadow: 0px 0px 5px #d9534f;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+}
+@keyframes progressDark {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 5px #d9534f;
+    box-shadow: 0px 0px 5px #d9534f;
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 0px #d9534f;
+    box-shadow: 0px 0px 0px #d9534f;
+  }
+}

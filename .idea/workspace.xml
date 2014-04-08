@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce63026c-dc1a-4073-b539-cbd1c663d089" name="Default" comment="" />
+    <ignored path="Adventure of Heroes.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Adventure of Heroes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="mobile.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/mobile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="477" column="58" selection-start="14142" selection-end="14142" vertical-scroll-proportion="3.018315" vertical-offset="646" max-vertical-offset="1770">
+              <folding>
+                <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1394159652000" expanded="true" signature="13287:14274" placeholder="..." />
+                <marker date="1394159652000" expanded="true" signature="13348:13534" placeholder="..." />
+                <marker date="1394159652000" expanded="true" signature="13597:14255" placeholder="..." />
+                <marker date="1394159652000" expanded="true" signature="13636:14224" placeholder="..." />
+                <marker date="1394159652000" expanded="true" signature="13692:13856" placeholder="..." />
+                <marker date="1394159652000" expanded="true" signature="13912:14082" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessionCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/sessionCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.styl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/mobile/login.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="1" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aoh.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/aoh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="44" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirejsOptimizer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster/requirejsOptimizer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="49" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/core.js" />
+        <option value="$PROJECT_DIR$/coreMaster.js" />
+        <option value="$PROJECT_DIR$/coreSlaveController.js" />
+        <option value="$PROJECT_DIR$/configs/main.js" />
+        <option value="$PROJECT_DIR$/scripts/cluster/express.js" />
+        <option value="$PROJECT_DIR$/cluster/config.js" />
+        <option value="$PROJECT_DIR$/configs/main.json" />
+        <option value="$PROJECT_DIR$/cluster/socket.io.js" />
+        <option value="$PROJECT_DIR$/cluster/express.js" />
+        <option value="$PROJECT_DIR$/cluster/static.js" />
+        <option value="$PROJECT_DIR$/cluster/requirejsOptimizer.js" />
+        <option value="$PROJECT_DIR$/libs/client/requirejs.min.js" />
+        <option value="$PROJECT_DIR$/public/scripts/libs/angular.js" />
+        <option value="$PROJECT_DIR$/public/scripts/libs/angular.min.js" />
+        <option value="$PROJECT_DIR$/public/mobile/main.js" />
+        <option value="$PROJECT_DIR$/mobile/one.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/mobile/aoh.js" />
+        <option value="$PROJECT_DIR$/cluster.js" />
+        <option value="$PROJECT_DIR$/cluster/stylusCompiler.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/main.styl" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/configs/cluster.json" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/mobile/build.styl" />
+        <option value="$PROJECT_DIR$/mobile/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/mobile/main.js" />
+        <option value="$PROJECT_DIR$/mobile/sessionCtrl.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/mobile/login.styl" />
+        <option value="$PROJECT_DIR$/public/mobile.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="57" />
+    <option name="y" value="22" />
+    <option name="width" value="1412" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adventure of Heroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/script/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/stylesheets/mobile" />
+      <recent name="$PROJECT_DIR$/vendors" />
+      <recent name="$PROJECT_DIR$/public/scripts/vendors" />
+      <recent name="$PROJECT_DIR$/public/stylesheets/vendors" />
+      <recent name="$PROJECT_DIR$/vendros" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce63026c-dc1a-4073-b539-cbd1c663d089" name="Default" comment="" />
+      <created>1394012304291</created>
+      <updated>1394012304291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="22" width="1412" height="730" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50832075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28966007" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="477" column="58" selection-start="14142" selection-end="14142" vertical-scroll-proportion="0.0" vertical-offset="1770" max-vertical-offset="1770">
+          <folding>
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394159652000" expanded="true" signature="13287:14274" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13348:13534" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13597:14255" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13636:14224" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13692:13856" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13912:14082" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/sessionCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/mobile/login.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/aoh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/requirejsOptimizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="477" column="58" selection-start="14142" selection-end="14142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
+          <folding>
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394159652000" expanded="true" signature="13287:14274" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13348:13534" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13597:14255" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13636:14224" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13692:13856" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13912:14082" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/sessionCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/mobile/login.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/aoh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/requirejsOptimizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="32" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="124" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/cluster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="32" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="124" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/cluster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreMaster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreSlaveController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreSlave.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3140394" vertical-offset="0" max-vertical-offset="812" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/static.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="497" selection-end="497" vertical-scroll-proportion="0.2955665" vertical-offset="0" max-vertical-offset="812" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/vendors/requirejs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/dart/Game2D/build/game2d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="0.15686275" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/dart/Game2D/web/game2d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="287" selection-end="415" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendors/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/cluster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/stylusCompiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="43" selection-start="234" selection-end="234" vertical-scroll-proportion="0.15209125" vertical-offset="0" max-vertical-offset="789" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/mobile/build.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mobile/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35388" column="3" selection-start="1216360" selection-end="1216360" vertical-scroll-proportion="0.39924905" vertical-offset="530501" max-vertical-offset="531300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/aoh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/sessionCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/mobile/login.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="477" column="58" selection-start="14142" selection-end="14142" vertical-scroll-proportion="3.018315" vertical-offset="646" max-vertical-offset="1770">
+          <folding>
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394159652000" expanded="true" signature="13287:14274" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13348:13534" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13597:14255" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13636:14224" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13692:13856" placeholder="..." />
+            <marker date="1394159652000" expanded="true" signature="13912:14082" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/requirejsOptimizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
