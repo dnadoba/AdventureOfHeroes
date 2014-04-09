@@ -8,6 +8,7 @@ define([], function(){
         debug : true,
         box2dDebugDraw : true,
         showStats : true,
+        speedHack : false,
         deleteAllFiles : false,
         neededQuata : 1024 * 1024 * 20,
         maxSimultaneousDownloads : 2,

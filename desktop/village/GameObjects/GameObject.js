@@ -35,6 +35,7 @@ define([
         if(this.heightCollider){
             this.heightCollider.position.x = x;
             this.heightCollider.position.z = y;
+            // heightCollider is not in the scene, the matrix must be updated manually
             this.heightCollider.updateMatrixWorld(true);
         }
         if(this.body){

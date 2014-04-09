@@ -136,6 +136,7 @@ define([
         }else{
             return promise
             .then((function(userData){
+                this.removeUser(userData.id);
                 var userObject = new UserObject(this.getNextVID(), userData, socket);
                 this.userList.add(userObject);
                 userObject.sendStartPackage(now(), 0, this);
@@ -146,7 +147,7 @@ define([
                     
                     this.removeUser(userObject.id);
                     console.log("UserDisconnect");
-                }).bind(this))
+                }).bind(this));
                 
                 return userObject;
             }).bind(this));

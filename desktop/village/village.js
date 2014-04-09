@@ -83,6 +83,7 @@ PlayerObject
         
         this.socket.on('disconnect', this.ondisconnect.bind(this));
         this.socket.on('updatePackage', this.onUpdatePackage.bind(this));
+        this.socket.on('resetPosition', this.onResetPosition.bind(this));
     }
     
     Village.prototype.addTerrain = function(){
@@ -146,6 +147,10 @@ PlayerObject
         }
         this.sendServerPingPackage(package.time);
     };
+    
+    Village.prototype.onResetPosition = function(position){
+        this.player.setPosition(position.x, position.y);
+    }
     
     Village.prototype.sendServerPingPackage = function(time){
         this.socket.emit('serverPingPackage', time);

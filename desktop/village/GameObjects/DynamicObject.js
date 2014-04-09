@@ -1,10 +1,11 @@
 define([
+'configs/client',
 './GameObject',
 'three',
 'desktop/utili/debug',
 'box2d',
 'general/utili/MathHelper'
-], function(GameObject, THREE, debug, b2, MathHelper){
+], function(config, GameObject, THREE, debug, b2, MathHelper){
     function DynamicObject(){
         GameObject.call(this);
         
@@ -118,6 +119,9 @@ define([
         
         if(package.speed){
             this.speed = package.speed;
+            if(config.speedHack){
+                this.speed *= 2;
+            }
         }
         
         if(package.health){
@@ -169,6 +173,9 @@ define([
         
         if(package.health){
             this.health = package.health;
+            if(config.speedHack){
+                this.speed *= 2;
+            }
         }
         
         if(package.maxHealth){

@@ -147,24 +147,33 @@ define([
                 this.resetPosition()
             }
             
-            this.velocity = this.destPosition.clone()
-            .sub(this.position);
+            var minDistance = this.speed * (deltaTime/1000);
+            if(distance <= minDistance){
+                this.velocity.set(0, 0);
+                this.position.copy(this.destPosition);
+                this.addClientChangedData('position', time);
+                this.addClientChangedData('velocity', time);
+            }else{
             
-            console.log("vector", this.velocity)
-            
-            var length = this.velocity.length();
-            
-            console.log("length", length);
-            
-            var speed = Math.min(length*deltaTime, this.speed);
-            console.log("speed", speed);
-            this.velocity
-            .normalize()
-            .multiplyScalar(speed)
-            
-            console.log("velocity", this.velocity);
-            
-            this.addClientChangedData('velocity', time);
+                this.velocity = this.destPosition.clone()
+                .sub(this.position);
+                
+    
+                
+                var length = this.velocity.length();
+                
+    
+                
+                var speed = Math.min(length*deltaTime, this.speed);
+    
+                this.velocity
+                .normalize()
+                .multiplyScalar(speed)
+                
+    
+                
+                this.addClientChangedData('velocity', time);
+            }
         }else{
             if(!this.velocity.equals(zeroVector2)){
                 this.velocity.set(0, 0);
@@ -180,6 +189,7 @@ define([
         this.destPosition.copy(this.position);
         //TO DO
         // send client that his position was reset
+        this.socket.emit('resetPosition', this.position);
     }
     
     UserObject.prototype.getClientStartData = function(){
