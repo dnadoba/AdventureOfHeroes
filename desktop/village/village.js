@@ -96,10 +96,6 @@ PlayerObject
         this.heightCollider.push(terrain);
     };
     
-    Village.prototype.ondisconnect = function(){
-        
-    };
-    
     Village.prototype.addGameObjects = function(package){
         return Q.Promise((function(resolve, reject, progress){
             var i = 0;

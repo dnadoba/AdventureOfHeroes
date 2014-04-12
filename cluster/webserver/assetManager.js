@@ -95,6 +95,17 @@ define([
                         promises.push(promise);
                     }
                     
+                    if(obj.sword){
+                        dependencies.push(urlJoin(modelsPath, obj.sword + '.js'));
+                        var dir = path.dirname(obj.sword);
+                        var basename = path.basename(obj.sword);
+                        var promise = getDependencies.fromModel(root, urlJoin(modelsPath, dir), basename)
+                        .then(function(dep){
+                            dependencies = dependencies.concat(dep);
+                        });
+                        promises.push(promise);
+                    }
+                    
                     if(obj.heightCollider){
                         dependencies.push(urlJoin(modelsPath, obj.heightCollider + '.js'));
                     }

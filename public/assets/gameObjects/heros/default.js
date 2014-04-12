@@ -1,1 +1,1 @@
-‚¥model­heros/default§bodyDef‚¤type§fixture‘¦circle¦radiusË?Ó333333
+ƒ¥model­heros/default¥swordºswords/ice_sword/Ice_Sword§bodyDef‚¤type§fixture‘¦circle¦radiusË?Ó333333

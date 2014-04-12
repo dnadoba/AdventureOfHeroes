@@ -47,7 +47,7 @@ define([
     };
     
     GameObject.prototype.getPosition = function(){
-        console.warn("GameObject.getPosition() is deprecated");
+        console.warn("GameObject.getPosition() is deprecated, use the position propertie");
         return this.position.clone();
     };
     
